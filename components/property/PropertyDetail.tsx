@@ -1,6 +1,11 @@
+import { PropertyProps } from '@/interfaces';
 import React from 'react'
 
-const PropertyDetail = () => {
+interface PropertyDetailProps {
+  property: PropertyProps;
+}
+
+const PropertyDetail: React.FC<PropertyDetailProps> = () => {
   return (
     <div>PropertyDetail</div>
   )
